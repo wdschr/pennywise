@@ -1,0 +1,4 @@
+# This directory must never be inside a web server's document root. This
+# file is defense-in-depth only, in case of hosting misconfiguration.
+Require all denied
+Deny from all
